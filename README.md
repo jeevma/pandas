@@ -24,42 +24,42 @@ Like we discussed, data can be quite unprocessed. This often makes it extremely 
 
 They help in making our code cleaner and the data clean enough for the human eye to see what's happening. Cleaner data gives better results.
 
-6. Support for multiple file formats:
+6. ## Support for multiple file formats:
 There are various different file formats these days in which data is present. Therefore it becomes important that there are libraries that can read and analyze different file formats. Pandas leave its peers far behind with the number of file formats it supports. Pandas can support JSON, CSV, HDF5, and Excel. This is one of the biggest selling points of Pandas.
 
-7. Multiple features for Time Series:
+7. ## Multiple features for Time Series:
 If you are a beginner, this feature might not make complete sense to you now but you will love it in the days to come. These set of features include frequency conversion and moving window statistics as well. As we learn more about Pandas, we will realize how important these features are for people working in data science.
 
-8. Joining and Merging Datasets:
+8. ## Joining and Merging Datasets:
 When we analyse data, there is a constant need to join and merge different datasets to create a final one for analysis. A robust system for this is required because if the datasets don’t get joined or merged properly, our results will get affected and that is not good.
 
 Pandas is extremely efficient in merging various datasets.
 
-9. Support for Python:
+9. ## Support for Python:
 This feature just eliminates any opposition that Pandas has. Python, with a scarcely believable number of powerful libraries at its disposal, has become one of the leading programming languages used by data scientists.
 
 Pandas can be a part of Python and give us access to other helpful libraries like MatPlotLib and NumPy.
 
-10. Optimal performance:
+10. ## Optimal performance:
 Anyone who has worked with Pandas extensively can testify that it is really fast, efficient and suitable for data scientists. The code for Pandas is written in Python or C, which makes it fast and extremely responsive.
 
-11. Grouping of data:
+11. ## Grouping of data:
 It is necessary to have the ability to group your data after separating it according to your needs.
 
 Pandas have various features, one of them being GroupBy, which helps you to separate data into chosen categories according to criteria given by you. This function splits the data and implements the given function on them. It then combines the results.
 
-12. Visualization of data:
+12. ## Visualization of data:
 A huge part of data science is the visualization of data. This is what makes the study's results understandable to normal human eyes.
 
 Pandas offer in-build abilities that help you in plotting your data and analyzing the different kinds of graphs which form. If there is no visualization, any analysis of data would make no sense to almost anyone.
 
-13. Data is Unique:
+13. ## Data is Unique:
 In unprocessed data, there is a lot of repetition. Therefore it is essential that we analyze only those data that have unique values.
 
 Pandas offer us this feature which lets us see all the values in the dataset which are unique. This function is dataset.column.unique() where the keywords column and dataset are the respective names of your column and dataset.
 
-14. Masking data:
+14. ## Masking data:
 There is always unnecessary data present in our datasets which we don't require. Therefore it is essential that we filter these data which we don't want. The mask function which Pandas provides helps us in doing exactly data as it turns any data that meets our given criteria for elimination, it turns it into missing data.
 
-15. Mathematical Operations:
+15. ## Mathematical Operations:
 Pandas have a function called apply which allows its users to implement all kinds of mathematical operations on their data. This is of enormous help as one's dataset may or may not be of the correct order. This is taken care of by a simple mathematical operation.
